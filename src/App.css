@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+*::selection{
+  background: rgba(235, 220, 92, 0.758);
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: #0f0529;
+  margin: 0px;
+  padding: 0px;
+}
+#border-gradient {
+  background:
+    linear-gradient(#0f0529, #0f0529) padding-box,
+    linear-gradient(to right, #c6426e, #642b73) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+}
+
+#text{
+  font-size: 16px;
+  font-weight: 400;
+background: -webkit-linear-gradient( #C6426E, #642B73);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+#horizontal-line {
+  display: flex;
+  align-items: center;
+}
+
+#horizontal-line::before,
+#horizontal-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #73777b; /* Adjust the color as needed */
+}
+
+#separator {
+  margin: 0 10px; /* Adjust the spacing around "or" as needed */
+}
